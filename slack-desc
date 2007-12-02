@@ -1,0 +1,11 @@
+kbarcode: KBarcode (A barcode and label printing applicaton for KDE)
+kbarcode:
+kbarcode: Kbarrcode comes with an easy to use WYSIWYG label designer, a
+kbarcode: setup wizard, batch import of data for batch printing labels,
+kbarcode: thousands of predefined labels, database management tools and
+kbarcode: translations in many languages. Data for printing can be imported
+kbarcode: from several different data sources, including SQL databases,
+kbarcode: CSV files and the KDE address book.
+kbarcode: KBarcode is also a simple barcode generator. All major types
+kbarcode: of barcodes like EAN, UPC, CODE39 and ISBN are supported.
+kbarcode: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
