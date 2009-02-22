@@ -7,7 +7,7 @@
 . ../slack-package.conf
 
 NAME=kbarcode
-VERSION=2.0.6
+VERSION=2.0.7
 BUILD=1
 
 ARCH=${ARCH:-i486}
@@ -39,13 +39,13 @@ bin_perms $PKG
 ( cd $SRC; create_docs $PKG $NAME-$VERSION )
 
 mkdir -p $PKG/install
-install -m 644 $CWD/slack-desc     $PKG/install
-install -m 644 $CWD/slack-required $PKG/install
+install -m 644 $CWD/slack-desc     $PKG/install/slack-desc
+install -m 644 $CWD/slack-required $PKG/install/slack-required
 
 mkdir -p $PKG/usr/src/slackbuilds/$NAME-$VERSION
-install -m 644 $CWD/slack-desc       $PKG/usr/src/slackbuilds/$NAME-$VERSION
-install -m 644 $CWD/slack-required   $PKG/usr/src/slackbuilds/$NAME-$VERSION
-install -m 644 $CWD/$NAME.SlackBuild $PKG/usr/src/slackbuilds/$NAME-$VERSION
+install -m 644 $CWD/slack-desc       $PKG/usr/src/slackbuilds/$NAME-$VERSION/slack-desc
+install -m 644 $CWD/slack-required   $PKG/usr/src/slackbuilds/$NAME-$VERSION/slack-required
+install -m 644 $CWD/$NAME.SlackBuild $PKG/usr/src/slackbuilds/$NAME-$VERSION/$NAME.SlackBuild
 
 cd $PKG
 PKGNAME=$NAME-$VERSION-$ARCH-$BUILD$MYIN
