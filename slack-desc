@@ -8,4 +8,4 @@ kbarcode: from several different data sources, including SQL databases,
 kbarcode: CSV files and the KDE address book.
 kbarcode: KBarcode is also a simple barcode generator. All major types
 kbarcode: of barcodes like EAN, UPC, CODE39 and ISBN are supported.
-kbarcode: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
+kbarcode: Packaged by Georgi D. Sotirov <gdsotirov@gmail.com>
